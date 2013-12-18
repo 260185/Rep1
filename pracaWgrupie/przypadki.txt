@@ -1,0 +1,52 @@
+﻿Przypadek I:
+Zamówienie konkretnej książki on-line z sukcesem
+0. Klient rejestruje/loguje się na portalu.
+1. Klient korzysta z wyszukiwarki książek on-line w poszukiwaniu konkretnego tytułu
+2. Klient wybiera interesującą go książkę
+3. System sprawdza dostępność książki
+4. Klient wybiera miejsce odbioru książki
+5. System sprawdza możliwość rezerwacji książki na danym miejscu
+5a.W razie braku książki system sprowadza książkę z najbliższej lokalizacji
+6. Wyświetlenie podsumowania rezerwacji książki
+7. Klient akceptuje zamówienie.
+8. System zapisuje w bazie informacje o zamówieniu
+9. System wysyła potwierdzenie zamówienia na email klienta.
+
+Przypadek II:
+Wyszukiwanie książki o danej tematyce on-line
+
+Przypadek III:
+Anulowanie rezerwacji książki
+0. Klient loguje się na portal.
+1. Klient otwiera zakładkę "Moje zamówienia"
+2. Klient wybiera interesujące go zamówienie
+3. System wyświetla informację dotyczące danego zamówienia
+4. Klient anuluje zamówienie.
+5. System aktualizuje dane dotyczące danego książki
+
+Przypadek IV:
+Przdłużenie okresu wypożyczania książki
+
+Przypadek V:
+Płacenie kary za przetrzymanie książki
+0. Klient loguje się na portal.
+1. Klient otwiera zakładkę "Płatności"
+2. System wyświetla dane dotyczące przetrzymanych książek
+3. Klient wybiera książkę, za którą chce zapłacić kare
+4. Klient wybiera czy książkę oddaje w ciągu 3 dni czy przedłuża okres wypożyczenia
+5. System wyświetla możliwe formy płatności
+6. Klient wybiera sposób płatności
+7. System autoryzuje transakcję
+8. System zapisuje informację o zapłaceniu kary (i w razie potrzeby o przedłużeniu)
+
+Przypadek VI:
+Kupno e-booka
+0. Klient rejestruje/loguje się na portal.
+1. Klient korzysta z wyszukiwarki e-booków w poszukiwaniu konkretnego tytułu
+2. Klient wybiera interesujący go e-book
+3. System wyświetla możliwe formy płatności
+4. Klient wybiera sposób płatności
+5. System wyświetla podsumowanie zakupu
+6. Klient akceptuje zamówienie
+7. System autoryzuje transakcję
+8. System wysyła klientowi maila, wraz z linkiem (do pobrania książki), potwierdzając zakup e-booka

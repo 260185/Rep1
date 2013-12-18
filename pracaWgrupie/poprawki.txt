@@ -1,0 +1,10 @@
+Nazwy pakietów- nie mog¹ byæ wy¿ej.
+Podwójne ++ przy kontruktorach zamienione na +, b³¹d przy wprowadzaniu danych.
+Strza³ki zosta³y zmienione.
+Do BazdyDanych dodany SpisCzytelnikow.
+Dodana funkcja dodaj do klasy spisKsiazek.
+Usunieta metoda typ z klasy Ksiazka.
+Zmieniona nazwa klasy biblioteka na MiejsceOdbioru
+W klasie Platnosc zosta³o zamienioe sposobPlatnosci na miejsceZaplaty.
+W klasie p³atnoœæ zmieniony typ int na enum przy sposobie platnosci.
+Dodany Enum: SposobPlatnosci.
